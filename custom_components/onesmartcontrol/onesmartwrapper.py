@@ -634,7 +634,7 @@ class OneSmartWrapper():
                             elif "e_total" == attribute_name:
                                 entity[ATTR_UNIT_OF_MEASUREMENT] = UnitOfEnergy.KILO_WATT_HOUR
                                 entity[ATTR_DEVICE_CLASS] = SensorDeviceClass.ENERGY
-                                entity[ATTR_STATE_CLASS] = SensorStateClass.TOTAL
+                                entity[ATTR_STATE_CLASS] = SensorStateClass.TOTAL_INCREASING
                                 use_entity = True
 
                             elif "e_day" == attribute_name:
